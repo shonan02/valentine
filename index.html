@@ -1,24 +1,36 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title>Be my valentine?</title>
+        <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.2/lib/anime.min.js"></script>
         <link href="style.css" rel="stylesheet">
     </head>
     <body>
-        <div class="box questions">
-            will you be my valentine?
-            <div class="buttons">
-                <button>YES</button>
-                <button>NO</button>
+        <div class="box">
+
+            <div id="question">
+                <h1>will you be my valentine?</h1>
+            </div>
+
+            <div class="buttons" id="buttons">
+                <button id="yes_bttn">YES</button>
+                <button id="no_bttn">NO</button>
+            </div>
+            
+
+            <div id="no">
+                I think you might be mistaken! 
+            </div>
+
+            <div id="yes">
+                love u pookie
             </div>
         </div>
 
-        <div class="box no">
-            No isnt an answer
+        <div id="awks">
+            hello
         </div>
 
-        <div class="box yes">
-            love u pookie
-        </div>
-        <script src="script.js"></script>
+        <script src="script.js" defer></script>
     </body>
 </html>
