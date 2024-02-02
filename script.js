@@ -13,8 +13,11 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   
     no_bttn.addEventListener("click", function() {
-      console.log("no");
+      
       question.innerHTML = "pookie thats the wrong answer.....";
+      yes_bttn.style.height = "60px";
+      yes_bttn.style.width = "100px";
+      yes_bttn.style.fontSize = "30px";
     });
   
     const move = (element, prop, pixels) => {
